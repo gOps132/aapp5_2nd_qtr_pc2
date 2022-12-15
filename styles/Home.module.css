@@ -1,0 +1,60 @@
+.container div {
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode:multiply;
+
+    /* color: var(--p-text-primary); */
+
+    /* min vals */
+    min-height: 40vh;
+    width: 100vw;
+
+    /* align vals */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    /* border */
+    /* border-bottom: 0.1rem solid; */
+}
+
+.title {
+    height: 100vh;
+
+    font-size: xx-large;
+
+    background: url("../public/img/2.jpeg") var(--b-bg-primary);
+}
+
+.title h1 {
+    background-color: var(--bg-secondary);
+    padding: 1rem;
+    filter: opacity(0.8);
+    border: 0.3rem solid;
+}
+
+.reference {
+    background: url("../public/img/1.jpeg") var(--b-bg-primary);
+}
+
+.intro {
+    font-size: small;
+}
+
+.intro p {
+    text-align:left;
+    max-width: 33%;
+    margin: 1rem;
+}
+
+/* Small screens */
+@media only screen and (max-width: 852px) {
+    .title {
+        font-size: x-large;
+    }
+}
