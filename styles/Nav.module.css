@@ -67,10 +67,12 @@
 
 .fa_primary {
 	color: #ff7eee;
+	/* color: var(--bg-primary); */
 }
 
 .fa_secondary {
 	color: #df49a6;
+	/* color: var(--bg-secondary); */
 }
 
 .fa_primary,
